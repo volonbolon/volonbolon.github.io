@@ -4,7 +4,7 @@ title:  "Literals"
 date:   2017-09-08 14:42:00 -0300
 categories: swift internals
 ---
-One of the best things of Swift the *Eat your own dog food* philosophy. There is no black magic behind the curtains. A special case that I really love, is Literals. 
+One of the best things of Swift is the *Eat your own dog food* philosophy. There is no black magic behind the curtains. A special case that I really love, is Literals. 
 
 `Int` is nothing more than a `struct`, and yet, instead of 
 
