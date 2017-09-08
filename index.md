@@ -1,4 +1,4 @@
-#Literals
+# Literals
 
 One of the best things of Swift the *Eat your own dog food* philosophy. There is no black magic behind the curtains. A special case that I really love, is Literals. 
 
