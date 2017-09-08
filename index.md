@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
+#Literals
 
-You can use the [editor on GitHub](https://github.com/volonbolon/volonbolon.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+One of the best things of Swift the *Eat your own dog food* philosophy. There is no black magic behind the curtains. A special case that I really love, is Literals. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+`Int` is nothing more than a `struct`, and yet, instead of 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```swift 
+let i = Int(42)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+We can say
 
-### Jekyll Themes
+```swift 
+let i = 42
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/volonbolon/volonbolon.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+There is no special glue, but a simple *protocol*. `Int` adopts `SignedNumber`, which, in turns adopts `ExpressibleByIntegerLiteral`. A really simple protocol that defines an `associatedtype` and a a special `init(integerLiteral value: Self.IntegerLiteralType)`
 
-### Support or Contact
+The expression `let i = 42` is funneled trough `init(integerLiteral:)`, that's all. 
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+And, `Int` is not special, not in this regard. Any type can adopt `ExpressibleByIntegerLiteral`. 
+
+```swift 
+struct Seats {
+    let seats:Int
+}
+
+extension Seats: ExpressibleByIntegerLiteral {
+    init(integerLiteral value: Int) {
+        self.seats = value
+    }
+}
+
+extension Seats: CustomStringConvertible {
+    var description:String {
+        get {
+            return "number of seats: \(self.seats)"
+        }
+    }
+}
+
+let s:Seats = 42
+
+print(s) // number of seats: 42
+```
+
+There are a number of Literals protocols
+
+`ExpressibleByBooleanLiteral`
+
+```swift 
+struct SoldOut {
+    let soldOut:Bool
+}
+
+extension SoldOut:ExpressibleByBooleanLiteral {
+    init(booleanLiteral value: Bool) {
+        self.soldOut = value
+    }
+}
+
+let so:SoldOut = false
+print(so) // SoldOut(soldOut: false)
+```
+
+The case for strings is particularly interesting because it clearly illustrates the power of protocols. We are working with `struct`s. In principle, there is no concept of heritance in value types. But protocols can give us a simple way to make sure different types express themselves the same way. No, is not polymorphism, but is still handy to know that regardless of the actual type, a bunch of objects can respond to a message with the same signature. `StringLiteralConvertible` adopts `ExtendedGraphemeClusterLiteralConvertible` which in turns adopts `UnicodeScalarLiteralConvertible`. If a `struct` S adopts `StringLiteralConvertible`, is also adopting `UnicodeScalarLiteralConvertible`. And because methods defined in protocols are, by default, required, you have to define all three `init`s. A wonderful, as usual, demonstration of `StringLiteralConvertible` can be found in [NSHipster](http://nshipster.com/swift-literal-convertible/). 
+
+A special case is `ExpressibleByNilLiteral`. This is adopted by `Optional` which will assign `.none` when `value` is nil, or `.some` otherwise. But since `nil` has a specific meaning in Swift, Apple discourage the adoption of the protocol. 
