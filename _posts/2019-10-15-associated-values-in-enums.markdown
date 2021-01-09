@@ -2,7 +2,7 @@
 layout: post
 title: "Associated values in Enums"
 date: 2019-10-15 15:34:35 GMT
-categories: Swift
+tags: Swift
 ---
 
 In Swift, Enumerations are much more flexible than in other languages like C. We Can define them not just as a set of `integers`, but as anything, provided we gave each case a raw value. 

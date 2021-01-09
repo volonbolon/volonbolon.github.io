@@ -2,7 +2,7 @@
 layout: post
 title: "Reverse a Singly Linked List "
 date: 2017-12-08 19:58:40 GMT
-categories: cs challenges
+tags: cs challenges
 ---
 
 <p>And, since we already have a <a href="https://iamvolonbolon.tumblr.com/post/168327385830/loops-in-a-singly-linked-list">singly linked list</a>, let’s try to reverse it.</p>

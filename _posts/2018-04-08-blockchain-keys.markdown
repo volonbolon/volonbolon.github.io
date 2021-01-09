@@ -2,7 +2,7 @@
 layout: post
 title: "Blockchain Keys"
 date: 2018-04-08 15:40:26 GMT
-categories: blockchain ecc crypto bitcoin
+tags: blockchain ecc crypto bitcoin
 ---
 
 In the blockchain, there is nothing encrypted, but still, asymmetric cryptography is heavily used. Each wallet contains at least a pair of keys, a private one used to sign transactions (and to claim ownership of UTXO), and a public key, generated from the private one, and used to receive funds. 

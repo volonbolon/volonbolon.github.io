@@ -2,7 +2,7 @@
 layout: post
 title: "Keys in Python"
 date: 2018-04-12 19:05:39 GMT
-categories: blockchain python bitcoin crypto
+tags: blockchain python bitcoin crypto
 ---
 
 We [already saw](https://iamvolonbolon.tumblr.com/post/172725515985/blockchain-keys) the basic concepts behind the creation of keys and address creation. Let’s try to implement them. I’m going to use Python because it’s easier to follow. 

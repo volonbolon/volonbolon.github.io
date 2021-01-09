@@ -2,7 +2,7 @@
 layout: post
 title: "Testing with mocks"
 date: 2018-01-16 13:43:31 GMT
-categories: swift ui test testing
+tags: swift ui test testing
 ---
 
 I love Objective-C. Swift is also wonderful, but Objective-C is spectacular. 

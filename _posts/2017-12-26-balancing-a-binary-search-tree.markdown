@@ -2,7 +2,7 @@
 layout: post
 title: "Balancing a Binary Search Tree"
 date: 2017-12-26 18:53:15 GMT
-categories: cs challenges data structure algorithm
+tags: cs challenges data structure algorithm
 ---
 
 <p>A <a href="https://en.wikipedia.org/wiki/Binary_search_tree">Binary Search Tree</a> is a container data structure, that keeps its keys always sorted. Any given node is greater than or equal to any key stored in the left sub-tree, and less than or equal to any key stored in the right sub-tree.</p>

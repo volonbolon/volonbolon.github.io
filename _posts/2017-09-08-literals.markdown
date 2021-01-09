@@ -2,7 +2,7 @@
 layout: post
 title: "Literals"
 date: 2017-09-08 16:07:43 GMT
-categories: swift undies architecture
+tags: swift undies architecture
 ---
 
 One of the best things of Swift is the *Eat your own dog food* philosophy. There is no black magic behind the curtains. A special case that I really love, is Literals. 

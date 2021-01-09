@@ -2,7 +2,7 @@
 layout: post
 title: "CGD Barrier to prevent race conditions"
 date: 2020-12-14 20:40:20 GMT
-categories: swift gcd memory management
+tags: swift gcd memory management
 ---
 
 We all been there:

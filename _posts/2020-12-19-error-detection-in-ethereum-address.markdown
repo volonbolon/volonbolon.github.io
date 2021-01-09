@@ -2,7 +2,7 @@
 layout: post
 title: "Error detection in Ethereum Address"
 date: 2020-12-19 13:26:17 GMT
-categories: ethereum blockchain crypto
+tags: ethereum blockchain crypto
 ---
 
 Sometimes, you find beauty in the simplest thing. Let's consider how Vitalik Buterin and Alex Van de Sande introduced a checksum in Ethereum addresses. 

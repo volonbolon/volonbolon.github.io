@@ -2,7 +2,7 @@
 layout: post
 title: "Find the start of a loop in a singly linked list"
 date: 2018-03-16 13:50:07 GMT
-categories: cs challenges data structure algorithm
+tags: cs challenges data structure algorithm
 ---
 
 We [already know](https://iamvolonbolon.tumblr.com/post/168327385830/loops-in-a-singly-linked-list) how to detect loops in a singly linked list. Now, we are going to detect the node where the loop starts. 

@@ -2,7 +2,7 @@
 layout: post
 title: "The Builder Pattern"
 date: 2020-03-26 21:58:58 GMT
-categories: swift design pattern
+tags: swift design pattern
 ---
 
 Sometimes building complex objects requires a lot of boilerplate code. Sometimes is just a matter of adjusting a large amount of parameters. 

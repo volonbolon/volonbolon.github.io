@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring Databases"
 date: 2020-09-28 20:13:22 GMT
-categories: database keyvalue redis cassandra hbase mongodb mysql graphdb neo4j acid base
+tags: database keyvalue redis cassandra hbase mongodb mysql graphdb neo4j acid base
 ---
 
 A requirement of almost any program is to persist data and retrieve data. That’s why we have Databases.

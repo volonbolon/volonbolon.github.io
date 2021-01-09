@@ -2,7 +2,7 @@
 layout: post
 title: "Loops in a singly linked list"
 date: 2017-12-08 16:57:49 GMT
-categories: cs challenges
+tags: cs challenges
 ---
 
 Given a Singly Linked List, the challenge is to find out if the tail is connected to the head, i.e. if we are dealing with a loop. 

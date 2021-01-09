@@ -2,7 +2,7 @@
 layout: post
 title: "Escape vs Non-Escape closures"
 date: 2017-12-20 23:49:59 GMT
-categories: memory management tips implementation code swift
+tags: memory management tips implementation code swift
 ---
 
 Let’s first try to understand what a escaping closure is. If a closure is passed as an argument of a function and is invoked after the function returns, the closure is *escaping*. Alternatively, if the closure is execute within the recipient scope, it’s *non-scaping*

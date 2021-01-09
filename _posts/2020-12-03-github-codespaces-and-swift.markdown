@@ -2,7 +2,7 @@
 layout: post
 title: "GitHub Codespaces and Swift"
 date: 2020-12-03 19:37:22 GMT
-categories: swift LSP git
+tags: swift LSP git
 ---
 
 Are you waiting for Xcode on your iPad?. Relax, Microsoft is on it. 

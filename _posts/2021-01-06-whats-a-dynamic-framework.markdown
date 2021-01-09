@@ -2,7 +2,7 @@
 layout: post
 title: "What's a Dynamic framework"
 date: 2021-01-06 19:29:38 GMT
-categories: Xcode Basics iOS DRY
+tags: Xcode Basics iOS DRY
 ---
 
 All standard iOS libraries are dynamic frameworks, and they 

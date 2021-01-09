@@ -2,7 +2,7 @@
 layout: post
 title: "Why I Code"
 date: 2018-03-01 23:54:17 GMT
-categories: 
+tags: 
 ---
 
 Don’t ask me why. I was 12, and my granddad bought me a Mac. At the very beginning (perhaps like half an hour), it was fun. But, you know, is 1986, the Challenger is blowing up, Argentina is winning the World Cup, and the Mac has no games, and the Web is not there yet. The Mac quickly turns into a paperweight. A very expensive one, but still. 

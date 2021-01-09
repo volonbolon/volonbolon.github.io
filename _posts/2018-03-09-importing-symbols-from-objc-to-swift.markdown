@@ -2,7 +2,7 @@
 layout: post
 title: "Importing symbols from ObjC to Swift"
 date: 2018-03-09 23:32:56 GMT
-categories: swift objective-c tips
+tags: swift objective-c tips
 ---
 
 Following the excellent [First-Class Swift API for Objective-C Frameworks](https://pspdfkit.com/blog/2018/first-class-swift-api-for-objective-c-frameworks/), I’ve rediscovered the pretty useful `NS_TYPED_ENUM` and `NS_TYPED_EXTENSIBLE_ENUM`. They are macros used in Objective-C in order to expose to Swift a bunch of constants as if they belongs to the same type. 

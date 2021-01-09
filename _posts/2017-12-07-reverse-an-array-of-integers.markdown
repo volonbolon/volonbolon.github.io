@@ -2,7 +2,7 @@
 layout: post
 title: "Reverse an array of integers"
 date: 2017-12-07 15:03:00 GMT
-categories: cs challenges small things
+tags: cs challenges small things
 ---
 
 We have an array composed by `ints`, `[96, 49, 70, 47, 24, 46, 60, 29, 49, 12]`, and we need to reverse it. 

@@ -2,7 +2,7 @@
 layout: post
 title: "DispatchWorkItem"
 date: 2020-12-10 19:02:56 GMT
-categories: swift gcd iOS
+tags: swift gcd iOS
 ---
 
 Dispatch Queues are great, but sometimes, the *Fire-and-forget* approach is not quite right. We do have [NSOperation](https://developer.apple.com/documentation/foundation/nsoperation), to encapsulate complex tasks, but what if we are dealing with something simple, something we can handle with Dispatch Queues, and yet, we need to cancel or create a simple dependency hierarchy? In that case, [DispatchWorkItem](https://developer.apple.com/documentation/dispatch/dispatchworkitem) might save the day. 

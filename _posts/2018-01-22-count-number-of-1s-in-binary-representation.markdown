@@ -2,7 +2,7 @@
 layout: post
 title: "Count number of 1s in binary representation"
 date: 2018-01-22 13:21:48 GMT
-categories: cs challenges algorithm
+tags: cs challenges algorithm
 ---
 
 Given an unsigned integer, we want to count how many `1` there are in its binary representation.

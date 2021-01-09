@@ -2,7 +2,7 @@
 layout: post
 title: "Blockchain Public Key Representations"
 date: 2018-04-11 23:51:47 GMT
-categories: blockchain crypto bitcoin
+tags: blockchain crypto bitcoin
 ---
 
 As we [already saw](https://iamvolonbolon.tumblr.com/post/172725515985/blockchain-keys), the public key is nothing but a point in the curve. The one we get after multiplying the generator the number of times defined by the secret. 

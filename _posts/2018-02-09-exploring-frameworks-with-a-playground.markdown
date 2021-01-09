@@ -2,7 +2,7 @@
 layout: post
 title: "Exploring frameworks with a playground"
 date: 2018-02-09 18:49:48 GMT
-categories: tips xcode swift
+tags: tips xcode swift
 ---
 
 Playgrounds are a wonderful way to explore new APIs, and to define algorithms. The problem is how to interact with frameworks, either created by ourselves, or imported trough Cocoa Pods or Carthage. 

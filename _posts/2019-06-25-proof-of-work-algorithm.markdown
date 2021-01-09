@@ -2,7 +2,7 @@
 layout: post
 title: "Proof-of-Work Algorithm"
 date: 2019-06-25 22:44:54 GMT
-categories: blockchain
+tags: blockchain
 ---
 
 To prevent rogue miners to spoof blocks and bend the chain in its favor, blockchain requires miners to satisfy a computational task hard enough that renders the whole doctoring increasingly expensive. Such a task is the *proof of work*. 

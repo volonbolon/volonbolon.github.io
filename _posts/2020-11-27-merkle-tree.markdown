@@ -2,7 +2,7 @@
 layout: post
 title: "Merkle Tree"
 date: 2020-11-27 00:09:40 GMT
-categories: crypto basic
+tags: crypto basic
 ---
 
 They are a hash based data structure that generalize the concept of a hash list. Each leaf node is a hash of a block of data, and each non-leaf node is a hash of the concatenation of its children. Usually, they are build as binary trees, although thats not a requirement.

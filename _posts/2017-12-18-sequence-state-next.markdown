@@ -2,7 +2,7 @@
 layout: post
 title: "sequence state next"
 date: 2017-12-18 20:42:28 GMT
-categories: swift tips undies
+tags: swift tips undies
 ---
 
 A really neat generic function is `sequence(state: next:)`. The best part is that it produces a sequence lazily by running a closure. ie, each step is computed. 

@@ -2,7 +2,7 @@
 layout: post
 title: "Coding Algebra"
 date: 2018-03-05 12:15:29 GMT
-categories: linear algebra math is fun
+tags: linear algebra math is fun
 ---
 
 One pretty neat, and yet, little-known application of Linear Algebra is coding~encoding schemes that can detect errors in transmission on the spot.

@@ -2,7 +2,7 @@
 layout: post
 title: "RSA explained"
 date: 2020-12-28 21:46:10 GMT
-categories: crypto math is fun mathematics
+tags: crypto math is fun mathematics
 ---
 
 One of the oldest asymmetric cryptosystems, develop in the 70s and still used today. The story goes that, one night in 1977, [Ron Rivest](https://en.wikipedia.org/wiki/Ron_Rivest) drank a few glasses of wine, and, unable to sleep, found a trap door function that was alluding him, and his partners [Adi Shamir](https://en.wikipedia.org/wiki/Adi_Shamir) and [Leonard Adleman](https://en.wikipedia.org/wiki/Leonard_Adleman). 

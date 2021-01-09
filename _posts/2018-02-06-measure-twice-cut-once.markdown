@@ -2,7 +2,7 @@
 layout: post
 title: "Measure Twice, Cut Once"
 date: 2018-02-06 19:04:26 GMT
-categories: Foundation API swift
+tags: Foundation API swift
 ---
 
 We can all agree, measurements are not sexy, but they can be important, and troublesome. Don’t believe? Ask [NASA](https://edition.cnn.com/TECH/space/9909/30/mars.metric.02/). 

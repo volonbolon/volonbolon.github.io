@@ -2,7 +2,7 @@
 layout: post
 title: "Bitcoin testbed"
 date: 2018-03-07 18:12:27 GMT
-categories: bitcoin blockchain
+tags: bitcoin blockchain
 ---
 
 Creating an experimental Bitcoin testbed is not trivial. Or is it? 

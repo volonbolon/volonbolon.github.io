@@ -2,7 +2,7 @@
 layout: post
 title: "Integer to String Conversion"
 date: 2018-01-10 18:21:53 GMT
-categories: cs challenges algorithm
+tags: cs challenges algorithm
 ---
 
 It turns out, that here, we also have three basic problems, related to the ones we found in [String to Integer Conversion](https://iamvolonbolon.tumblr.com/post/169548302500/string-to-integer-conversion). 

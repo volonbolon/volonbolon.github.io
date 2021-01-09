@@ -2,7 +2,7 @@
 layout: post
 title: "Reverse words in a string"
 date: 2018-01-03 14:27:16 GMT
-categories: cs challenges algorithm
+tags: cs challenges algorithm
 ---
 
 The challenge is to reverse the words in a string. In Swift, the `struct` offers limited access to the underlying `characters` array. That means, in order to operate at the character level, we need to get a buffer with it. 

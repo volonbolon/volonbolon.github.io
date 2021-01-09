@@ -2,7 +2,7 @@
 layout: post
 title: "String to Integer Conversion"
 date: 2018-01-10 18:18:57 GMT
-categories: cs challenges algorithm
+tags: cs challenges algorithm
 ---
 
 The input would be something like `”42”`, or perhaps `”-42”`. There are at least three things to consider. 

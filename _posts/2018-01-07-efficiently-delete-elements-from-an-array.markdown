@@ -2,7 +2,7 @@
 layout: post
 title: "Efficiently delete elements from an Array"
 date: 2018-01-07 14:07:10 GMT
-categories: cs challenges data structure algorithm swift
+tags: cs challenges data structure algorithm swift
 ---
 
 The classical setup for the problem is “delete characters from a string”. In the case of Swift, as we [already saw](https://iamvolonbolon.tumblr.com/post/169266108755/reverse-words-in-a-string), strings are not just characters arrays (like in C). So, let’s rephrase the problem to *Efficiently delete elements from an Array*. Where the `elements` to be deleted are also provided as an Array. 

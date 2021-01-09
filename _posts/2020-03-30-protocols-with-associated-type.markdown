@@ -2,7 +2,7 @@
 layout: post
 title: "Protocols with Associated Type"
 date: 2020-03-30 20:39:01 GMT
-categories: Swift protocol pop
+tags: Swift protocol pop
 ---
 
 Swift is type-safe, all types must be defined at compilation time.

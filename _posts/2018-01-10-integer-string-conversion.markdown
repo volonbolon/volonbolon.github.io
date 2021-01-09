@@ -2,7 +2,7 @@
 layout: post
 title: "Integer / String conversion"
 date: 2018-01-10 18:25:15 GMT
-categories: cs challenges algorithm
+tags: cs challenges algorithm
 ---
 
 The idea is to write a couple of helpers to convert a String to a Signed Integer, and back. 
