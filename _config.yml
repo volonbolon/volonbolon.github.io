@@ -21,7 +21,7 @@
 title: Volonbolon
 email: ariel@volonbolon.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Software Developer: iOS, Crypto, Backend
+  Software Engineer: iOS, Crypto, Backend
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: volonbolon
