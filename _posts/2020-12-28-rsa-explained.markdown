@@ -15,7 +15,7 @@ First, we need to choose two prime numbers. In a real-world scenario, we would b
 p = 5, q = 13
 ```
 
-Now, we compute the product of these two numbers
+We compute the product of these two numbers
 
 ```
 modulus = 65
@@ -23,7 +23,7 @@ modulus = 65
 
 The modulus length, usually expressed in bits, is the key length. It is distributed as part of the public key. 
 
-Now, we compute [Carmichael function](the https://en.wikipedia.org/wiki/Carmichael_function). Which is, basically, the number of caprimes with `modulus` in the range `1 < n < modulus`. Instead of just listing all the caprimes with modulus, and and since `p` and `q` are prime, `λ(p) = φ(p) = p − 1` and likewise `λ(q) = q − 1`. Hence `λ(modulus) = lcm(p − 1, q − 1)`. 
+We compute [Carmichael function](the https://en.wikipedia.org/wiki/Carmichael_function). Which is, basically, the number of coprimes with `modulus` in the range `1 < n < modulus`. Instead of just listing all the coprimes with modulus, and and since `p` and `q` are prime, `λ(p) = φ(p) = p − 1` and likewise `λ(q) = q − 1`. Hence `λ(modulus) = lcm(p − 1, q − 1)`. 
 
 In our case, the least common multiple, and thus, our λ for our modulus is 65. 
 
