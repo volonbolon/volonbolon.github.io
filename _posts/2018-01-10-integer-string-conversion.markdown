@@ -19,6 +19,6 @@ let asInt = Int(asString)
 assert(x == asInt)
 ```
 
-But let’s try to explore alternative solutions. I will split this into two different posts to keep them concise. [String to Integer Conversion](https://iamvolonbolon.tumblr.com/post/169548302500/string-to-integer-conversion) and [Integer to String Conversion](https://iamvolonbolon.tumblr.com/post/169548389165/integer-to-string-conversion)
+But let’s try to explore alternative solutions. I will split this into two different posts to keep them concise. [String to Integer Conversion](/https://volonbolon.me/2018/01/10/string-to-integer-conversion.html) and [Integer to String Conversion](https://volonbolon.me/2018/01/10/integer-to-string-conversion.html)
 
 As usual, a playground with examples is uploaded to [GitHubGist](https://gist.github.com/volonbolon/bf3dd3cb66dc8fd142c6ebfa273974cd)
