@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using .sheet to produce different screens"
-date: 2021-01-17 23:35:36 GMT
+date: 2021-01-21 18:43:06 GMT
 tags: SwiftUI swift iOS swift 
 description: "Associating modals sheets in SwiftUI to optional types, instead of a boolean"
 ---
