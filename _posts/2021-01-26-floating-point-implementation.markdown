@@ -115,7 +115,7 @@ Let's calculate the representations of 0.1 and 0.2
 | Decimal | Sign | Exponent | Mantissa | Binary Scientific |
 | :--: | :--: | :--: | :--: | :--: |
 | 0.1 | 0 | 01111011 | 10011001100110011001100 | 1.10011001100110011001100 * 2 ^ -4
-| 0.2 | 0 | 01111100 | 10011001100110011001100 | | 1.10011001100110011001100 * 2 ^ -3
+| 0.2 | 0 | 01111100 | 10011001100110011001100 | 1.10011001100110011001100 * 2 ^ -3 |
 
 We can see the pattern of bits (*1100*). When you perform math on these repeating decimals, you end up with leftovers which carry over when you convert the computer’s base-2 (binary) number into a more human-readable base-10 representation.
 
@@ -123,9 +123,11 @@ In order to sum these two, we will need to convert from IEEEE 754 representation
 
 Then, we need to match the exponents, moving the decimal point and adjusting the values. 
 
+```
 0.11001100110011001100110 * 2 ^ -3
 1.10011001100110011001100 * 2 ^ -3
 ----------------------------------
 10.01100110011001100110010 * 2 ^ -3 == 1.001100110011001100110010 * 2 ^ -2
+```
 
 When converted to decimal, we get close to 0.3, but no 0.3
