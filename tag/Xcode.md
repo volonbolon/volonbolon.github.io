@@ -1,12 +1,12 @@
 ---
 layout: tagpage
-title: "Tag: Xcode"
-tag: Xcode
+title: "Tag: xcode"
+tag: xcode
 robots: noindex
 ---
 ---
 layout: tagpage
-title: "Tag: xcode"
-tag: xcode
+title: "Tag: Xcode"
+tag: Xcode
 robots: noindex
 ---
