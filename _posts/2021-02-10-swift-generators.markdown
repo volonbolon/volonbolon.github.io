@@ -1,10 +1,8 @@
-# Swift Generators
 ---
 layout: post
 title: "Swift Generators"
 date: 2021-02-10 22:54:38 GMT
 tags: swift design_patterns
-description:
 ---
 
 Generators functions allow you to declare a function that can receive multiple inputs, and produce just in time the output. Because the generation of values is performed lazily, we don't need to allocate a large number of resources to build up complex sequences in advance. 
