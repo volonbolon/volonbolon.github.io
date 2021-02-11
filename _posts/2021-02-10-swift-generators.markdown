@@ -1,7 +1,7 @@
 # Swift Generators
 ---
 layout: post
-title: "_posts/Swift Generators.txt"
+title: "Swift Generators"
 date: 2021-02-10 22:54:38 GMT
 tags: swift design_patterns
 description:
