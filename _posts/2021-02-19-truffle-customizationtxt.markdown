@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Truffle Customization.txt"
+title: "Truffle Customization"
 date: 2021-02-19 18:50:18 GMT
 tags: ethereum truffle blockchain
 description:
