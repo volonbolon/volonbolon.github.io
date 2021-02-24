@@ -9,7 +9,7 @@ A requirement of almost any program is to persist data and retrieve data. Thatâ€
 A Database is usually designed to store and manages a large amount of data. A database has to be accurate, with all sorts of internal checks, giving integrity to the data it manages. 
 Since they are a solution to a pervasive problem, it is easy to see why they have been developed since the early days of CS, and why we have different flavors, for different needs. Let's review them. 
 
-##Key-Value
+## Key-Value
 The most simple approach is a hash pairing *keys* and *values*. 
 Fast and easy to use, they are popular to build caches. 
 Because they hold data in memory, there is a limitation to the amount of data at their disposal, but at the same time, by avoiding round trips to slow second memory, they are super fast. 
@@ -25,7 +25,7 @@ OK
 Best for: Reduce data latency. Usually deployed on top of some other database used to persist data. 
 Popular alternatives: [Redis](https://redis.io), [MemCache](https://memcached.org)
 
-##Wide Column
+## Wide Column
 We can stretch the value part of a key-value DB, to store a set of ordered rows, and then we have a wide column DB. That way we can group data together and associate it with the same key. 
 These databases don't have a schema, and they can easily handle unstructured data
 I know, I know, Cassandra does have a schema. That's true. It is also true that it was developed schemaless. Schemas were added later. 
@@ -33,6 +33,7 @@ We can interact with them with some languages (like CQL), that usually are simil
 Because of its nature, they are easy to replicate and scale-up. And no, the reason they are easy to replicate is not that they are NoSQL, it is because they relax on the [ACID](https://en.wikipedia.org/wiki/ACID) requirements. You see, read scaling is not that hard. Bottlenecks appear only when introducing JOINs and that kind of operations, which can be opt-out even in RDBMS. The problem is to scale up writes. If you want to speed up writes, then you will need to relax on *atomicity* by shorten the time tables are locked (like MongoDB), *consistency* which let's scale-up in a cluster of nodes (like Cassandra) or *durability* holding everything on memory and avoiding round trips to disk (as we saw already, Redis). 
 In fact, these types of databases are popular in applications where writing is much more frequent than reading. 
 Let's imaging a system that persist readings from a vast array of wheather stations: 
+
 ```
 cqlsh> CREATE KEYSPACE IF NOT EXISTS mycassandra WITH REPLICATION = {'class': 'SimpleStrategy', 'replication_factor': 1};
 cqlsh> USE mycassandra;
@@ -51,7 +52,7 @@ cqlsh:mycassandra> SELECT * FROM wheather;
 Best for: Backing IoT
 Popular alternatives: [Apache Cassandra](https://cassandra.apache.org), [Apache HBase](https://hbase.apache.org), [Cloud Bigtable](https://console.cloud.google.com/marketplace/details/google-cloud-platform/cloud-bigtable)
 
-##Document DB
+## Document DB
 They are based on documents, where each document is a container of *key-value* pairs. They are unstructured and don't require a schema. 
 Documents are group together in collections, and fields within collections can be indexed. 
 Collections can be organized in hierarchies, allowing some kind of relational modeling. 
@@ -77,7 +78,7 @@ WriteResult({ "nInserted" : 1 })
 Best for: They are very popular in IoT and content management. They are also great to start if not sure about how data is structured. 
 Popular alternatives: [MongoDB](https://www.mongodb.com), [Apache CouchDB](https://couchdb.apache.org)
 
-##RDBMs
+## RDBMs
 Very popular, and one of the older paradigms. 
 They are a collection of multiple data sets organized in tables with a well-defined relationship between them. 
 Each table is a relation, each table record (row), contains a unique data instance defined for a corresponding column category.
@@ -137,7 +138,7 @@ mysql> SELECT o.order_id, o.timestamp, d.name, d.qty FROM orders o INNER JOIN de
 Best for: Perhaps the most popular family of DBs, and essentials when data integrity is a must (financial).
 Popular alternatives: [MySQL](https://www.mysql.com), [PostgreSQL](https://www.postgresql.org)
 
-##Graph
+## Graph
 In graph DB, the relationships between elements are first-class citizens, they are treated exactly the same as the elements. 
 From a mathematical point of view, the relations are edges of a graph where the elements are nodes. 
 Edges are always directed.
