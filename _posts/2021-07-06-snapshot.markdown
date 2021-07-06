@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Snapshot"
+date: 2021-07-06 18:49:16 GMT
+tags: Management tools techniques
+description:
+---
+We are going to explore a great tool to create situational awareness. If we want to be good at planning, we need to know were we are right now, only then we can envision how to get where we want to be. 
+
+In order to know where we are, we will ask all the involved parts and compile their observations. 
+
+At the very least, we have three actors: our direct reports, our managers, and ourselves. 
+
+Mostly because it is easier to arrange a meeting with ourselves, let's start there. We will need to write down our observations on the project. Where are the bottlenecks? What about the team? Is it well equipped? Are they communicating properly? What about the morale? 
+
+Now, we ask our boss about her own observations on the team and its performance. Can she share her insight about the team members? What's her vision for the team's future? Do we have a roadmap for the next few months? Has it been revised lately? 
+
+Finally, the team. We need to set up 1-1 meeting with each member of the team and ask them about their roles, and their objectives, both individually, and as a team. Who is accountable for different aspects of the organization, including the roadmap. Their personal feeling about the project, and how they think they are (as a team) perceived by the rest of the organization. 
+
+## Venn Diagram
+With our stack of documents, we can proceed to build our first snapshot. 
+
+A Venn diagram is a wonderful way to visualize the information. We are going to build a set with each of our sources, one for our own observations, one with those from our boss, and one collecting the observations of our direct reports. 
+
+![Alignment](https://9gnrkan899.s3.sa-east-1.amazonaws.com/Alignment.png)
+
+The intersection between the three sets is the perfect alignment of the whole structure. Here all three actors share visions and observations. The bigger the intersection, the better. Is the intersection the identity of each of the sets? Nice. We are flying unicorns and we don't have to worry about a thing. 
+
+But since I was told unicorns are hard to find, there is a chance that the intersection is not actually the identity of the three sets. Hopefully, they are not disjointed, but, in any case, the complement of each of the indicates pathological (but quite common) situations. Why is it that the team believes that they are understaffed while the upper management is convinced the team is not working hard enough, and you think they are wasting way too many cycles deploying manually when automation would enhance the process while reducing the risk of something blowing up? More importantly, while the roadmap of the team does not match the upper management's? Is it possible that the team does not know the product is supposed to be introduced in a big exposition two months from now? 
+
+Here, in the complements, is where we can do a lot, communicating, interacting, and destroying false beliefs. Explaining to our boss that the team is performing well, updating the roadmap, automating tasks.
+
+We should repeat the exercise frequently, and we should keep the results to evaluate progress.
